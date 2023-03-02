@@ -69,7 +69,7 @@ page_style= """
         visibility: visible;
         }
     footer:after{
-        content: 'Developed by [Ali Maatouk](mailto:ahm44@aub.edu.lb)';
+        content: 'Developed by Ali Maatouk';
         display:block;
         position:relative;
         color:#1e54e4;
