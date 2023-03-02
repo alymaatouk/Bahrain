@@ -17,7 +17,7 @@ with last_co:
 with left_co:
     st.image("https://cdn.britannica.com/67/5767-004-E0FF7201/Flag-Bahrain.jpg")
 with cent_co:
-    st.title(" Bahrain - البحرين")
+    st.title("               Bahrain - البحرين")
     
     
 left_col, center_co = st.columns([1,4])
