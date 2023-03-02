@@ -17,14 +17,9 @@ with cent_co:
     
 left_col, center_co = st.columns([1,4])
 with center_co:
-    st.title(""" "اســتـبـيـان "المجتمع العربي: مجموعة الاحصاءات والمؤشرات الاجتماعية""")    
+    st.title(""" "اســتـبـيـان "المجتمع العربي: مجموعة الاحصاءات والمؤشرات الاجتماعية""")
+    st.write('## الرجاء اختيار موضوع الآستبان عبر الضغط على الأزرار ادناه ')
     
 #Welcome Message 
-
-
-st.write('## "This dashboard allows the instructors to visually moniter that performance of students using several metrics and across multiple attributes" ')
-# streamlit expander, useful if mor info is wanted about something but
-# you dont want to clutter the page up
-st.write("### Quick Guide: You can check students performance across the attributes by selecting the attribute from the side bar on the left, and read more info about the dataset and see a sample using the buttons below:")
 
 
