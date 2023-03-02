@@ -50,3 +50,9 @@ with col3:
     st.write("[Poverty - الفقر]()")
 with col4:
     st.write("[Education - التعليم]()")
+with col5:
+    st.write:("[Culture - الثقافة]()")
+with col6:
+    st.write:("[Health - الصحة]()")
+with col7:
+    st.write:("[Housing Conditions - المساكن]()")    
