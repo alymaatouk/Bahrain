@@ -33,10 +33,10 @@ with col22:
 with col11:
     st.title("""- الاجتماعية""")
 with col00:
-    st.title("""17""")
+    st.title("""السابع عشر""")
 left_col, center_co = st.columns([1,4])
 with center_co:
-    st.title(""" 17 - "اســتـبـيـان "المجتمع العربي: مجموعة الاحصاءات والمؤشرات الاجتماعية""")
+    st.title("""17 - "اســتـبـيـان "المجتمع العربي: مجموعة الاحصاءات والمؤشرات الاجتماعية""")
 
 leftt_co, centt_co,lastt_co = st.columns([1,1,2])
 with lastt_co :
