@@ -17,7 +17,7 @@ with cent_co:
 
 #Welcome Message 
 
-st.title("""اســتـبـيـان "المجتمع العربي: مجموعة الاحصاءات والمؤشرات الاجتماعية""")
+st.title(""""اســتـبـيـان "المجتمع العربي: مجموعة الاحصاءات والمؤشرات الاجتماعية""")
 st.write('## "This dashboard allows the instructors to visually moniter that performance of students using several metrics and across multiple attributes" ')
 # streamlit expander, useful if mor info is wanted about something but
 # you dont want to clutter the page up
