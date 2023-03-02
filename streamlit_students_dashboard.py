@@ -20,7 +20,7 @@ with center_co:
     st.title(""" "اســتـبـيـان "المجتمع العربي: مجموعة الاحصاءات والمؤشرات الاجتماعية""")
 
 leftt_co, centt_co,lastt_co = st.columns([1,2,1])
-with centt_co::
+with centt_co:
         st.write('## الرجاء اختيار موضوع الاستبان عبر الضغط على الأزرار ادناه ')
 
 #Welcome Message 
