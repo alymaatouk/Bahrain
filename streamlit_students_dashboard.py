@@ -57,7 +57,7 @@ col1, col2, col3, col4, col5, col6, col7 = st.columns(7)
 with col1:
     st.write("[Population - السكان]()")
     lottie_pop= load_lottiefile("population.json")
-    st_lottie(lottie_pop, height=150, width=200) 
+    st_lottie(lottie_pop, height=150, width=150) 
 with col2:
     st.write("[Labor - العمالة](https://docs.google.com/spreadsheets/d/1UGEiAmFwx7iiY1WV1s7l0TFz08pQPGju/edit?usp=sharing&ouid=100083186149459779256&rtpof=true&sd=true)")
 with col3:
