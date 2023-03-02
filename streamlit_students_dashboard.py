@@ -27,16 +27,9 @@ leftt_co, centt_co,lastt_co = st.columns([1,1,2])
 with lastt_co :
     st.title("البحرين")
     st.write('## الرجاء اختيار موضوع الاستبيان عبر الضغط على الأزرار ادناه ')
-
     
-from bokeh.models.widgets import Div
-
-if st.button('Go to Streamlit'):
-    js = "window.open('https://www.streamlit.io/')"  # New tab or window
-    js = "window.location.href = 'https://www.streamlit.io/'"  # Current tab
-    html = '<img src onerror="{}">'.format(js)
-    div = Div(text=html)
-    st.bokeh_chart(div)
-#Welcome Message 
+col1, col2, col3, col4, col5, col6, col7: st.columns(6)
+with col1:
+    st.write("[Population - السكان](https://share.streamlit.io/mesmith027/streamlit_webapps/main/MC_pi/streamlit_app.py)")
 
 
