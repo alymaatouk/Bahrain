@@ -30,7 +30,6 @@ with lastt_co :
 
     
 from bokeh.models.widgets import Div
-import streamlit as st
 
 if st.button('Go to Streamlit'):
     js = "window.open('https://www.streamlit.io/')"  # New tab or window
