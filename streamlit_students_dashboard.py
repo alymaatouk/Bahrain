@@ -5,13 +5,15 @@ import pandas as pd
 import numpy as np 
 import plotly.express as px  
 
-st.write('<style>div.block-container{padding-top:0rem;}</style>', unsafe_allow_html=True)
 
 st.set_page_config(
     page_title="اســتـبـيـان المجتمع العربي",
     page_icon= "🇺🇳",
     layout='wide'
 )
+
+st.write('<style>div.block-container{padding-top:0rem;}</style>', unsafe_allow_html=True)
+
 
 left_co, cent_co,last_co = st.columns(3)
 with last_co:
