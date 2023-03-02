@@ -32,5 +32,5 @@ col1, col2, col3, col4, col5, col6, col7 = st.columns(7)
 with col1:
     st.write("[Population - السكان]()")
 with col2:
-    st.write("[Labor - Employment](https://docs.google.com/spreadsheets/d/1UGEiAmFwx7iiY1WV1s7l0TFz08pQPGju/edit?usp=sharing&ouid=100083186149459779256&rtpof=true&sd=true)")
+    st.write("[Labor - العمالة](https://docs.google.com/spreadsheets/d/1UGEiAmFwx7iiY1WV1s7l0TFz08pQPGju/edit?usp=sharing&ouid=100083186149459779256&rtpof=true&sd=true)")
 
