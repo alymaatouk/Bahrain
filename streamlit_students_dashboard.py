@@ -26,8 +26,5 @@ st.write('## "This dashboard allows the instructors to visually moniter that per
 # streamlit expander, useful if mor info is wanted about something but
 # you dont want to clutter the page up
 st.write("### Quick Guide: You can check students performance across the attributes by selecting the attribute from the side bar on the left, and read more info about the dataset and see a sample using the buttons below:")
-with st.expander("Click for more information on the student performence dataset:"):
-    st.write("The student performence data set is a multivariate data set that represents students scores across 3 subjects, Math, reading, and writing, and ever student belongs to one of the 5 groups: A, B, C, D, or E")
-    st.write("The data set consists of 990 students.")
 
 
