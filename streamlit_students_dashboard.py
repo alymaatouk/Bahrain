@@ -5,11 +5,17 @@ import pandas as pd
 import numpy as np 
 import plotly.express as px  
 
+st.set_page_config(
+    page_title="اســتـبـيـان المجتمع العربي",
+    page_icon= "🇺🇳",
+    layout='wide'
+)
+
 st.image("https://i2.wp.com/ummah-futures.net/wp-content/uploads/2019/12/%D8%A7%D9%84%D9%84%D8%AC%D9%86%D8%A9-%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%D8%A9-%D9%84%D8%BA%D8%B1%D8%A8%D9%8A-%D8%A2%D8%B3%D9%8A%D8%A7-1.jpg?w=500&ssl=1")
 
 #Welcome Message 
 
-st.title('اســتـبـيـان "المجتمع العربي: مجموعة الاحصاءات والمؤشرات الاجتماعية')
+st.title("""اســتـبـيـان "المجتمع العربي: مجموعة الاحصاءات والمؤشرات الاجتماعية""")
 st.write('## "This dashboard allows the instructors to visually moniter that performance of students using several metrics and across multiple attributes" ')
 # streamlit expander, useful if mor info is wanted about something but
 # you dont want to clutter the page up
