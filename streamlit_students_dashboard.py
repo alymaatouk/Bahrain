@@ -29,6 +29,7 @@ with last_co:
 with left_co:
     st.image("https://www.unescwa.org/sites/default/files/images/flags/Flag_of_Bahrain.svg")
 
+st.markdown("اســتـبـيـان المجتمع العربي: مجموعة الاحصاءات والمؤشرات الاجتماعية")
 col00, col11, col22, col33, col44, col55, col66, col77 = st.columns(8)
 with col77:
     st.title("""اســتـبـيـان""")
