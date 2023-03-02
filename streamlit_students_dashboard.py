@@ -17,7 +17,7 @@ with cent_co:
     
 left_col, center_co = st.columns([1,4])
 with center_co:
-    st.title(""" 17 "اســتـبـيـان "المجتمع العربي: مجموعة الاحصاءات والمؤشرات الاجتماعية""")
+    st.title(""" 17 - "اســتـبـيـان "المجتمع العربي: مجموعة الاحصاءات والمؤشرات الاجتماعية""")
 
 leftt_co, centt_co,lastt_co = st.columns([1,2,1])
 with centt_co:
