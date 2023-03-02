@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np 
 import plotly.express as px  
 
-st.image("https://i0.wp.com/gbsn.org/wp-content/uploads/2020/07/AUB-logo.png?ssl=1")
+st.image("https://unttc.org/sites/unttc/files/2020-11/escwa.png")
 
 #Welcome Message 
 
