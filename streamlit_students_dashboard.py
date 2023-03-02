@@ -51,7 +51,7 @@ with col00:
 leftt_co, centt_co,lastt_co = st.columns([1,1,2])
 with lastt_co :
     st.title("البحرين")
-    st.write('## :الرجاء اختيار موضوع الاستبيان عبر الضغط على الزر المناسب ادناه ')
+    st.write('## :الرجاء اختيار موضوع الاستبيان عبر الضغط على الزر المناسب  ')
     
 col1, col2, col3, col4, col5, col6, col7 = st.columns(7)
 with col1:
