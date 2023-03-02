@@ -59,4 +59,21 @@ with col5:
 with col6:
     st.write("[Health - الصحة]()")
 with col7:
-    st.write("[Housing Conditions - المساكن]()")    
+    st.write("[Housing Conditions - المساكن]()")   
+    
+
+#edit footer
+page_style= """
+    <style>
+    footer{
+        visibility: visible;
+        }
+    footer:after{
+        content: 'Developed by Ali Maatouk';
+        display:block;
+        position:relative;
+        color:#1e54e4;
+    }
+    </style>"""
+
+st.markdown(page_style, unsafe_allow_html=True)
