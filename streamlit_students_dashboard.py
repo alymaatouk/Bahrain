@@ -5,6 +5,7 @@ import pandas as pd
 import numpy as np 
 import plotly.express as px  
 import json
+from streamlit_lottie import st_lottie
 
 
 st.set_page_config(
