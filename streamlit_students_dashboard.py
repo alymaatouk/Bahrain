@@ -28,7 +28,7 @@ with lastt_co :
     st.title("البحرين")
     st.write('## الرجاء اختيار موضوع الاستبيان عبر الضغط على الأزرار ادناه ')
     
-col1, col2, col3, col4, col5, col6, col7: st.columns(6)
+col1, col2, col3, col4, col5, col6, col7: st.columns(7)
 with col1:
     st.write("[Population - السكان](https://share.streamlit.io/mesmith027/streamlit_webapps/main/MC_pi/streamlit_app.py)")
 
