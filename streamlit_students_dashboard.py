@@ -17,8 +17,23 @@ with last_co:
 with left_co:
     st.image("https://www.unescwa.org/sites/default/files/images/flags/Flag_of_Bahrain.svg")
 
-    
-    
+col00, col11, col22, col33, col44, col55, col66, col77 = st.columns(8)
+with col77:
+    st.title("""اســتـبـيـان""")
+with col66:
+    st.title("""المجتمع""")
+with col55:
+    st.title(""":العربي""")
+with col44:
+    st.title("""مجموعة""")
+with col33:
+    st.title("""الاحصاءات""")
+with col22:
+    st.title("""والمؤشرات""")
+with col11:
+    st.title("""- الاجتماعية""")
+with col00:
+    st.title("""17"""
 left_col, center_co = st.columns([1,4])
 with center_co:
     st.title(""" 17 - "اســتـبـيـان "المجتمع العربي: مجموعة الاحصاءات والمؤشرات الاجتماعية""")
