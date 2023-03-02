@@ -4,6 +4,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np 
 import plotly.express as px  
+import json
 
 
 st.set_page_config(
@@ -13,6 +14,12 @@ st.set_page_config(
 )
 
 st.write('<style>div.block-container{padding-top:0rem;}</style>', unsafe_allow_html=True)
+
+
+#defining lottie function to visualize animated pictures
+def load_lottiefile(filepath: str):
+    with open(filepath) as f:
+        return json.load(f)
 
 
 left_co, cent_co,last_co = st.columns(3)
@@ -48,6 +55,8 @@ with lastt_co :
 col1, col2, col3, col4, col5, col6, col7 = st.columns(7)
 with col1:
     st.write("[Population - السكان]()")
+    lottie_pop= load_lottiefile("population.json")
+    st_lottie(lottie_pop, height=150, width=200) 
 with col2:
     st.write("[Labor - العمالة](https://docs.google.com/spreadsheets/d/1UGEiAmFwx7iiY1WV1s7l0TFz08pQPGju/edit?usp=sharing&ouid=100083186149459779256&rtpof=true&sd=true)")
 with col3:
