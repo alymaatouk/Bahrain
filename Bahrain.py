@@ -17,11 +17,6 @@ st.set_page_config(
 st.write('<style>div.block-container{padding-top:0rem;}</style>', unsafe_allow_html=True)
 
 
-#defining lottie function to visualize animated pictures
-def load_lottiefile(filepath: str):
-    with open(filepath) as f:
-        return json.load(f)
-
 
 left_co, cent_co,last_co = st.columns(3)
 with last_co:
@@ -30,6 +25,28 @@ with left_co:
     st.image("https://www.unescwa.org/sites/default/files/images/flags/Flag_of_Bahrain.svg")
 st.image("title.PNG")
 
+# Create an empty container
+placeholder = st.empty()
+
+actual_email = "bahrain"
+actual_password = "bahrain22"
+
+# Insert a form in the container
+with placeholder.form("login"):
+    st.markdown("#### الرجاء ادخال اسم المستخدم")
+    email = st.text_input("اسم المستخدم")
+    password = st.text_input("كلمة المرور", type="password")
+    submit = st.form_submit_button("تسجيل الدخول")
+
+if submit and email == actual_email and password == actual_password:
+    # If the form is submitted and the email and password are correct,
+    # clear the form/container and display a success message
+    placeholder.empty()
+    st.success("تم تسجيل الدخول بنجاح")
+elif submit and email != actual_email and password != actual_password:
+    st.error("هناك خطأ في اسم المستخدم او كلمة المرور، الرجاء المحاولة من جديد")
+else:
+    pass
 
 leftt_co, centt_co,lastt_co = st.columns([1,1,2])
 with lastt_co :
