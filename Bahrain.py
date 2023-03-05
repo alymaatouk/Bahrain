@@ -34,7 +34,7 @@ actual_password = "bahrain17"
 # Insert a form in the container
 with placeholder.form("login"):
     #st.markdown("#### الرجاء ادخال اسم المستخدم")
-    st.markdown('<div style="text-align: right; font-size: 42px;">الرجاء ادخال اسم المستخدم وكلمة المرور</div>', unsafe_allow_html=True)
+    st.markdown('<div style="text-align: right; font-size: 42px; font-weight: bold;">الرجاء ادخال اسم المستخدم وكلمة المرور</div>', unsafe_allow_html=True)
     email = st.text_input("اسم المستخدم")
     email = email.lower()
     password = st.text_input("كلمة المرور", type="password")
