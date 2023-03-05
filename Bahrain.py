@@ -35,6 +35,7 @@ actual_password = "bahrain22"
 with placeholder.form("login"):
     st.markdown("#### الرجاء ادخال اسم المستخدم")
     email = st.text_input("اسم المستخدم")
+    email = email.lower()
     password = st.text_input("كلمة المرور", type="password")
     submit = st.form_submit_button("تسجيل الدخول")
 
