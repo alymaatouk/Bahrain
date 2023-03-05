@@ -25,18 +25,6 @@ with left_co:
     st.image("https://www.unescwa.org/sites/default/files/images/flags/Flag_of_Bahrain.svg")
 st.image("title.PNG")
 
-st.markdown("""
-<style>
-input {
-  unicode-bidi:bidi-override;
-  direction: RTL;
-}
-</style>
-    """, unsafe_allow_html=True)
-
-i1 = st.text_input("text input 1")
-st.write('value 1: "', i1, '"')
-
 # Create an empty container
 placeholder = st.empty()
 
