@@ -65,7 +65,7 @@ if submit and email == actual_email and password == actual_password:
         st.write("[Housing Conditions - المساكن]()")   
     
 
-elif submit and email != actual_email or password != actual_password:
+elif submit and email != actual_email and password != actual_password:
     st.error("هناك خطأ في اسم المستخدم او كلمة المرور، الرجاء المحاولة من جديد")
 else:
     pass
