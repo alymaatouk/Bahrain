@@ -39,7 +39,7 @@ with placeholder.form("login"):
     email = email.lower()
     password = st.text_input("Password - كلمة المرور", type="password")
     password = password.lower()
-    submit = st.form_submit_button("تسجيل الدخول")
+    submit = st.form_submit_button("Login - تسجيل الدخول")
 
 if submit and email == actual_email and password == actual_password:
     # If the form is submitted and the email and password are correct,
