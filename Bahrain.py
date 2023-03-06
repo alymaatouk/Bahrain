@@ -35,9 +35,9 @@ actual_password = "bahrain17"
 with placeholder.form("login"):
     #st.markdown("#### الرجاء ادخال اسم المستخدم")
     st.markdown('<div style="text-align: right; font-size: 28px; font-weight: bold; color: blue;">الرجاء ادخال اسم المستخدم وكلمة المرور</div>', unsafe_allow_html=True)
-    email = st.text_input("Username اسم المستخدم")
+    email = st.text_input("Username - اسم المستخدم")
     email = email.lower()
-    password = st.text_input("Password كلمة المرور", type="password")
+    password = st.text_input("Password - كلمة المرور", type="password")
     password = password.lower()
     submit = st.form_submit_button("تسجيل الدخول")
 
